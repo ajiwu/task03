@@ -1,0 +1,56 @@
+@charset "utf-8";
+body,ul,li,p,img,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;	
+	font-family:"微软雅黑";
+}
+
+#main,#middle,#right{
+	background: #eee;
+	padding: 20px;
+	
+	border: 1px solid #999;
+	overflow: hidden;	
+}
+
+#main{
+	margin: 20px;
+}
+
+#left{
+	
+	float: left;
+}
+.logo{
+	width: 200px;
+	padding: 20px;
+	border: 1px solid #999;
+	float: left;
+}
+.logo img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.teem_name{
+		float: left;
+		margin: 0 0 0 20px;
+	}
+#middle{
+	width: auto;
+	margin-left:260px;
+	margin-right: 150px;	
+}
+#right{
+	float: right;
+}
+#right img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	margin-bottom: 20px;	
+}
+#right ul{
+	list-style-type:none;
+
+}
